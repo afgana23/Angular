@@ -1,0 +1,12 @@
+table {
+    margin-left: 18px;
+    padding: 12px;
+    border: solid;
+}
+th{
+    background-color: aquamarine;
+   
+}
+tr{
+    border: solid;
+}

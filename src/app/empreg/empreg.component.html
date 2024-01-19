@@ -1,0 +1,22 @@
+
+<ul>
+    <li *ngFor="let tt of emp">
+        {{tt.name}}
+
+    </li>
+</ul>
+<div class="form">
+<form    [formGroup]   ="empRegForm"  (ngSubmit)="empRegFormSubmit(empRegForm.value)">
+
+    <h3>Employee Registration</h3>
+ 
+    <input class="inp" type="text" formControlName="empid" placeholder="empId"><br><br>
+    <input class="inp" type="text" formControlName="empname" placeholder="Usename"><br><br>
+    <input class="inp" type="text" formControlName="empemail" placeholder="email"><br><br>
+    <input class="inp" type="text" formControlName="emppassword" placeholder="password"><br><br>
+    <input type="submit" class="btn"> 
+    <input type="reset" class="btn">
+
+
+</form>
+</div>

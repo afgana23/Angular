@@ -1,0 +1,25 @@
+<h3>Employee Register information show</h3>
+
+<table>
+    <tr >
+        <th>Id</th>
+        <th>EmpId</th>
+        <th>EName</th>
+        <th>Email</th>
+        <th>Password</th>
+    </tr>
+    <tr *ngFor="let tt of empreg">
+        <td> {{tt.id}}</td>
+        <td> {{tt.empid}}</td>
+        <td>  {{tt.empname}}</td>
+        <td> {{tt.empemail}}</td>
+        <td>{{tt.emppassword}}</td>
+    </tr>
+</table>
+<label>Country</label>
+<select>
+
+<option *ngFor="let tt of empreg" [value]="tt.name">{{tt.empname}}
+    
+</option>
+</select>

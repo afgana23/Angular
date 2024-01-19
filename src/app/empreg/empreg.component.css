@@ -1,0 +1,16 @@
+.form{
+    text-align: center;
+    background-color: rgb(188, 220, 222);
+    
+}
+.inp{
+   padding-bottom: 3px; 
+}
+.btn{
+background-color: rgb(230, 30, 30);
+border-radius: 40%;
+color: aliceblue;
+font-weight: 600;
+margin-left: 5px;
+
+}
