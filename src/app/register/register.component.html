@@ -1,0 +1,72 @@
+
+
+<!--
+<h1>Registration form</h1>
+<div>
+    <form   formGroup = "angForm"   (ngSubmit)=   "postdata(angForm)">
+<div>
+    <label class="inp" for="name">Name</label>
+    <input type="text" name="name" formControlName="name" >
+</div>
+<div>
+    <label class="inp" for="email">Email</label>
+    <input type="text" name="email" formControlName="email" >
+</div>
+
+<div>
+    <label class="inp" for="password">Password</label>
+    <input type="text" name="password" formControlName="password" >
+</div>
+<div>
+    <label class="inp" for="mobile">Mobile number</label>
+    <input type="text" name="mobile" formControlName="mobile" >
+</div>
+<div>
+    <button type="submit" class="btn">Register</button>
+</div>
+
+
+
+
+    </form>
+</div>-->
+
+
+<h2 class="tect-center">Registrataion</h2>
+<div class="row">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-6 col-md-offset-3">
+
+   <div class="form">
+
+
+    <form  formGroup = "angForm"   (ngSubmit)=  "postdata(angForm.value)">
+
+<div class="form-group">
+<label class="inp" for="name">Name</label>
+<input type="text" class="inp" placeholder="name" ngForm name="name" formControlName="name" >
+
+</div>
+<div class="form-group">
+    <label class="inp" for="email">Email</label>
+    <input type="text" class="inp" placeholder="Email" formControlName="email" ngForm name="email">
+    
+    </div>
+    <div class="form-group">
+        <label class="inp" for="name">Password</label>
+        <input type="text" class="inp" placeholder="password" name="password" formControlName="password">
+        
+        </div>
+        <div class="form-group">
+            <label class="inp" for="Mobile">mobile</label>
+            <input type="text" class="inp" placeholder="Mobile" formControlName="mobile" ngForm name="mobile">
+            
+            </div>
+            <button type="submit" class="btn">Register</button>
+        </form>
+            </div>
+        
+    </div>
+</div>

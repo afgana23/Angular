@@ -1,0 +1,20 @@
+.form-group{
+    align-items: center;
+    padding: 13px;
+    margin-left: 12px;
+}
+.inp{
+    font-size: 19px;
+    padding: 4px;
+    color: blue;
+    width: 250px;
+    margin-right: 13px;
+}
+.btn{
+    color: azure;
+    background-color: orange;
+    padding: 4px;
+    width: "200px";
+    height: 50px;
+   margin-left: 23px;
+}
